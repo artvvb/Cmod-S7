@@ -4,8 +4,8 @@ This repository is designed to offer a unified and comprehensive approach to all
 
 This repository also provides the release point for project and image files exported from the various tools involved. Releases provide files that are directly usable, without requiring the use git or any scripting systems. To get access to these files, visit this repository's releases page, find a release for a demo you may be interested in, and download the files therein. For additional documentation on individual demos, and how to use these releases, visit the READMEs for each demo, found on their respective master branches in this repository:
 
-* [Cmod S7-25 Out-of-Box Demo](FIXME)
-* [Cmod S7-25 XADC Demo](FIXME)
+* [Cmod S7-25 Out-of-Box Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/oob-demo)
+* [Cmod S7-25 Microblaze XADC Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo)
 
 For more information about the Cmod S7, visit its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
 
