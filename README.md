@@ -15,10 +15,7 @@ For more information about the Cmod S7, visit its [Resource Center](https://refe
 
 For a detailed structural description of this repository and it's submodules, along with the branching system, and how to interact with this repository through git, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git).
 
-## Cmod S7-25 Out-Of-Box Demo
-
-
-## Setup Instructions
+## Cmod S7-25 Out-Of-Box Demo Setup Instructions
 - Download and extract the most recent release ZIP archive from this repository's Releases Page.
 - Open the project in Vivado 2020.1 by double clicking on the included XPR file found at `<archive extracted location>/vivado_proj/Cmod-S7-25-OOB.xpr`.
 - In the Flow Navigator panel on the left side of the Vivado window, click Open Hardware Manager.
