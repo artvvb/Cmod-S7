@@ -1,14 +1,33 @@
 # Cmod S7 Root Repository
 
-This repository is designed to offer a unified and comprehensive approach to all of the aspects of the demos that we provide for the Cmod S7, across multiple tools. By cloning this repo recursively you will receive the repositories for Vivado projects (HW), and Vitis workspaces (SW). Each submodule may have its own submodule dependencies which will also be pulled when cloning. An important aspect of this structure is the fact that the SW heavily depends on hardware hand-off files from the HW repository.
+## Cmod S7-25 Microblaze XADC Demo
 
-This repository also provides the release point for project and image files exported from the various tools involved. Releases provide files that are directly usable, without requiring the use git or any scripting systems. To get access to these files, visit this repository's releases page, find a release for a demo you may be interested in, and download the files therein. For additional documentation on individual demos, and how to use these releases, visit the READMEs for each demo, found on their respective master branches in this repository:
+### Description
 
-* [Cmod S7-25 Out-of-Box Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/oob-demo)
-* [Cmod S7-25 Microblaze XADC Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo)
+This branch contains sources for the Cmod S7-25 Microblaze XADC Demo.
 
-For more information about the Cmod S7, visit its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
+This project demonstrates how to use the Cmod S7-25's Spartan 7 FPGA's analog-to-digital core (referred to as the XADC) with a Microblaze processor. Vivado is used to build the demo's hardware platform, and Vitis is used to build and deploy a C application.
 
-Each branch of this repository represents a different project with preset functionality. When checking out a branch, all the submodules will be automatically configured to the same branch, thus providing a unified flow between all the submodules. For details about the individual functionality of the submodules, please refer to the README.md files within the submodules.
+To use this demo, the Cmod S7 must be connected to a computer over MicroUSB, which must be running a serial terminal (such as Tera Term or PuTTY).
 
-For a detailed structural description of this repository and it's submodules, along with the branching system, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git).
+As long as the demo is running, ten times per second, the voltages on each of the Cmod S7-25's DIP header's analog input pins (AIN32 and AIN33) are read and printed to a connected serial terminal. The readings are accurate to two decimal places. To avoid damage to the FPGA, take care not to apply a voltage greater than 3.5 Volts to the analog pins. Any voltages less than 0 Volts or greater than 3.3 Volts are read as those instead.
+
+For more information on the Cmod S7-25 Microblaze XADC Demo, including setup instructions, visit its [Demo Page](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc/staging) on the Digilent Wiki.
+
+### Additional Information
+
+For more information on the Cmod S7, see its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
+
+To see other demos in this repository, see the master branch's [README](https://github.com/Digilent/Cmod-S7).
+
+For a detailed structural description of this repository, its submodules, branches, and how to interact with this repository through git, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git).
+
+### Requirements
+
+The following are required for use of this demo. For more information on how to get any hardware or software you may be missing, see the Demo Page, linked above.
+
+* Cmod S7-25
+* Vivado and Vitis 2020.1 Installations
+* Serial Terminal Emulator (such as Tera Term or PuTTY)
+* MicroUSB Cable for programming and USBUART communication
+* Circuit to measure (a breadboard is recommended)
