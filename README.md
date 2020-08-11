@@ -6,8 +6,8 @@ This repository also provides the release point for project and image files expo
 
 | Name and Wiki Link | Description | Submodules Used |
 |--------------------|-------------|-----------------|
-| [Cmod S7-25 Out-of-Box Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/oob-demo) | A simple hardware-only design using the LEDs, buttons, and USBUART Bridge | HW |
-| [Cmod S7-25 Microblaze XADC Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo) | Uses a Microblaze soft core processor and analog input pins to measure and print voltages | HW, SW |
+| [Cmod S7-25 Out-of-Box Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/oob-demo/staging) | A simple hardware-only design using the LEDs, buttons, and USBUART Bridge | HW |
+| [Cmod S7-25 Microblaze XADC Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo/staging) | Uses a Microblaze soft core processor and analog input pins to measure and print voltages | HW, SW |
 
 For more information about the Cmod S7, visit its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
 
