@@ -20,7 +20,12 @@ To see other demos in this repository, see the master branch's [README](https://
 
 For a detailed structural description of this repository, its submodules, branches, and how to interact with this repository through git, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git).
 
-Note: While this demo does not require software sources, it still has a `sw` folder, to ease checking out software sources of other demos through git. This folder is largely empty.
+Some demos do not require some submodules, in these cases, they are still provided to ease checking out the sources in those submodules through git. In these cases, the submodule folder is largely empty, except for a readme containing only the heading "Root commit". This demo contains the following submodules:
+
+| Submodule | Used by this demo |
+|-----------|-------------------|
+| HW        | Yes               |
+| SW        | No                |
 
 This demo was moved into this repository during 2020.1 updates. Its history prior to these updates can be found in its old repository, linked below:
 * [Cmod S7-25 Out-Of-Box Demo](https://github.com/Digilent/Cmod-S7-25-OOB)
