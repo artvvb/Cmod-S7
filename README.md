@@ -22,6 +22,9 @@ For a detailed structural description of this repository, its submodules, branch
 
 Note: While this demo does not require software sources, it still has a `sw` folder, to ease checking out software sources of other demos through git. This folder is largely empty.
 
+This demo was moved into this repository during 2020.1 updates. Its history prior to these updates can be found in its old repository, linked below:
+* [Cmod S7-25 Out-Of-Box Demo](https://github.com/Digilent/Cmod-S7-25-OOB)
+
 ### Requirements
 
 The following are required for use of this demo. For more information on how to get any hardware or software you may be missing, see the Demo Page, linked above.
