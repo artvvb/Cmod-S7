@@ -20,7 +20,7 @@ For more information on the Cmod S7, see its [Resource Center](https://reference
 
 To see other demos in this repository, see the master branch's [README](https://github.com/Digilent/Cmod-S7).
 
-For a detailed structural description of this repository, its submodules, branches, and how to interact with this repository through git, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git).
+For instructions on how to use this repository with git, and for additional documentation on the submodule and branch structures used, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git) on the Digilent Wiki.
 
 Some demos do not require some submodules, in these cases, they are still provided to ease checking out the sources in those submodules through git. In these cases, the submodule folder is largely empty, except for a readme containing only the heading "Root commit". This demo contains the following submodules:
 
