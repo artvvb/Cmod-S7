@@ -12,3 +12,7 @@ This repository also provides the release point for project and image files expo
 For more information about the Cmod S7, visit its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
 
 For a detailed structural description of this repository and it's submodules, along with the branching system, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git).
+
+Demos were moved into this repository during 2020.1 updates. History of these demos prior to these updates can be found in their old repositories, linked below:
+* [Cmod S7-25 Out-of-Box Demo](https://github.com/Digilent/Cmod-S7-25-OOB)
+* [Cmod S7-25 Microblaze XADC Demo](https://github.com/Digilent/Cmod-S7-25-XADC)
