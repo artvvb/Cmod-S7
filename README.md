@@ -29,6 +29,9 @@ Some demos do not require some submodules, in these cases, they are still provid
 | HW        | Yes               |
 | SW        | Yes               |
 
+This demo was moved into this repository during 2020.1 updates. Its history prior to these updates can be found in its old repository, linked below:
+* [Cmod S7-25 Microblaze XADC Demo](https://github.com/Digilent/Cmod-S7-25-XADC)
+
 ### Requirements
 
 The following are required for use of this demo. For more information on how to get any hardware or software you may be missing, see the Demo Page, linked above.
