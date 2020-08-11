@@ -20,7 +20,7 @@ To see other demos in this repository, see the master branch's [README](https://
 
 For instructions on how to use this repository with git, and for additional documentation on the submodule and branch structures used, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git) on the Digilent Wiki.
 
-Some demos do not require some submodules, in these cases, they are still provided to ease checking out the sources in those submodules through git. In these cases, the submodule folder is largely empty, except for a readme containing only the heading "Root commit". This demo contains the following submodules:
+Some demos do not require some submodules, in these cases, they are still provided to ease switching between demos in git. When unused, the submodule folder is largely empty, except for a readme containing only the heading "Root commit". This demo contains the following submodules:
 
 | Submodule | Used by this demo |
 |-----------|-------------------|
