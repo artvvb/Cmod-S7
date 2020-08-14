@@ -4,10 +4,10 @@ This repository is designed to offer a unified and comprehensive approach to all
 
 This repository also provides the release point for project and image files exported from the various tools involved. Releases provide files that are directly usable, without requiring the use git or any scripting systems. To get access to these files, visit this repository's releases page, find a release for a demo you may be interested in, and download the files therein. For additional documentation on individual demos, and how to use these releases, visit their pages on the Digilent Wiki, linked below.
 
-| Name and Wiki Link | Description | Submodules Used |
-|--------------------|-------------|-----------------|
-| [Cmod S7-25 Out-of-Box Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/oob-demo/staging) | A simple hardware-only design using the LEDs, buttons, and USBUART Bridge | HW |
-| [Cmod S7-25 Microblaze XADC Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo/staging) | Uses a Microblaze soft core processor and analog input pins to measure and print voltages | HW, SW |
+| Name and Wiki Link | Description | Demo Master Branch | Submodules Used |
+|--------------------|-------------|--------------------|-----------------|
+| [Cmod S7-25 Out-of-Box Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/oob-demo/staging) | A simple hardware-only design using the LEDs, buttons, and USBUART Bridge | 25/OOB/master | HW |
+| [Cmod S7-25 Microblaze XADC Demo](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo/staging) | Uses a Microblaze soft core processor and analog input pins to measure and print voltages | 25/XADC/master | HW, SW |
 
 For more information about the Cmod S7, visit its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
 
