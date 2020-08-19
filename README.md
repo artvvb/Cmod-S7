@@ -12,7 +12,7 @@ To use this demo, the Cmod S7 must be connected to a computer over MicroUSB, whi
 
 As long as the demo is running, ten times per second, the voltages on each of the Cmod S7-25's DIP header's analog input pins (AIN32 and AIN33) are read and printed to a connected serial terminal. The readings are accurate to two decimal places. To avoid damage to the FPGA, take care not to apply a voltage greater than 3.5 Volts to the analog pins. Any voltages less than 0 Volts or greater than 3.3 Volts are read as those instead.
 
-For more information on the Cmod S7-25 Microblaze XADC Demo, including setup instructions, visit its [Demo Page](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc/staging) on the Digilent Wiki.
+For more information on the Cmod S7-25 Microblaze XADC Demo, including setup instructions, visit its [Demo Page](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo/staging) on the Digilent Wiki.
 
 For more information on the Cmod S7, see its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
 
