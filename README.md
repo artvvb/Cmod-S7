@@ -10,7 +10,9 @@ This project demonstrates how to use the Cmod S7-25's Spartan 7 FPGA's analog-to
 
 To use this demo, the Cmod S7 must be connected to a computer over MicroUSB, which must be running a serial terminal (such as Tera Term or PuTTY).
 
-As long as the demo is running, ten times per second, the voltages on each of the Cmod S7-25's DIP header's analog input pins (AIN32 and AIN33) are read and printed to a connected serial terminal. The readings are accurate to two decimal places. To avoid damage to the FPGA, take care not to apply a voltage greater than 3.5 Volts to the analog pins. Any voltages less than 0 Volts or greater than 3.3 Volts are read as those instead.
+As long as the demo is running, ten times per second, the voltages on each of the Cmod S7-25's DIP header's analog input pins (AIN32 and AIN33) are read and printed to a connected serial terminal. The readings are accurate to two decimal places. Any voltages less than 0 Volts or greater than 3.3 Volts are read as those instead.
+
+To avoid damage to the FPGA, take care not to apply a voltage greater than 5.5 Volts to the analog pins. Any higher goes beyond the rated maximum of the XADC inputs (1.8V), after passing through the board's voltage divider.
 
 For more information on the Cmod S7-25 Microblaze XADC Demo, including setup instructions, visit its [Demo Page](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/xadc-demo/staging) on the Digilent Wiki.
 
