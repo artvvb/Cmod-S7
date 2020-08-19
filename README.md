@@ -12,13 +12,13 @@ To use the USB-UART bridge feature of this demo, the Cmod S7 must be connected t
 
 For more information on the Cmod S7-25 Out-of-Box Demo, including setup instructions, visit its [Demo Page](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/oob-demo/staging) on the Digilent Wiki.
 
-### Additional Information
-
 For more information on the Cmod S7, see its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/cmod-s7/start) on the Digilent Wiki.
 
-To see other demos in this repository, see the master branch's [README](https://github.com/ArtVVB/Cmod-S7).
+### Git Navigation Information
 
-For instructions on how to use this repository with git, and for additional documentation on the submodule and branch structures used, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git) on the Digilent Wiki.
+For instructions on how to use this repository with git, and for additional documentation on the submodule and branch structures used, please visit [Digilent FPGA Demo Git Repositories](https://reference.digilentinc.com/reference/programmable-logic/documents/git) on the Digilent Wiki. Note that use of git is not required to use this demo. Digilent recommends the use of project releases, for which instructions can be found in each demo wiki page, linked above.
+
+To see other demos in this repository, see the master branch's [README](https://github.com/ArtVVB/Cmod-S7).
 
 Some demos do not require some submodules, in these cases, they are still provided to ease switching between demos in git. When unused, the submodule folder is largely empty, except for a readme containing only the heading "Root commit". This demo contains the following submodules:
 
